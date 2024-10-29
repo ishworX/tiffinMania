@@ -42,7 +42,13 @@ const PopularDishes = () => {
             desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo laudantium hic voluptas.",
             rating: 4
         },
-        
+        {
+            id:5,
+            pizza: pizza3,
+            name: "Pau Bhaji",
+            desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo laudantium hic voluptas.",
+            rating: 4
+        },
     ]
 
     return (

@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from './Card'
-import pizza1 from '../assets/pizza1.png'
-import pizza2 from '../assets/pizza2.png'
+import indiansweet from '../assets/indiansweets.jpg'
+import tiffin from '../assets/monthlytiffin.png'
 import pizza3 from '../assets/pizza3.png'
 
 const PopularDishes = () => {
@@ -9,25 +9,40 @@ const PopularDishes = () => {
     const menu = [
         {
             id:1,
-            pizza: pizza1,
-            name: "Peporoni Pizza",
+            pizza: indiansweet,
+            name: "Indian Sweets",
             desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo laudantium hic voluptas.",
             rating: 4
         },
         {
             id:2,
-            pizza: pizza2,
-            name: "Sushi Pizza",
+            pizza: tiffin,
+            name: "Monthly Tiffin",
             desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo laudantium hic voluptas.",
             rating: 4
         },
         {
             id:3,
             pizza: pizza3,
-            name: "Margarita Pizza",
+            name: "Nepali Khana Set",
             desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo laudantium hic voluptas.",
             rating: 4
         },
+        {
+            id:4,
+            pizza: pizza3,
+            name: "Food for Caterings",
+            desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo laudantium hic voluptas.",
+            rating: 4
+        },
+        {
+            id:5,
+            pizza: pizza3,
+            name: "Pau Bhaji",
+            desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo laudantium hic voluptas.",
+            rating: 4
+        },
+        
     ]
 
     return (

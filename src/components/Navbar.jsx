@@ -1,6 +1,6 @@
 import { Menu } from 'lucide-react';
 import React, { useState, useEffect } from 'react'
-import chili from '../assets/chili-pepper.png'
+import chili from '../assets/tiffinlogo.png'
 
 
 
@@ -25,8 +25,8 @@ function Header() {
           <div href="/" className="text-primary  flex gap-1 items-center">
             <img src={chili} width={30} height={30} alt='chilli' />
             <h1 className='text-red-500 font-bold text-xl '>
-              Spicy
-              <span className="text-gray-800 font-semibold">Bites</span>
+              Tiffn
+              <span className="text-gray-800 font-semibold">Mania</span>
             </h1>
           </div>
           <div className='flex gap-8'>
@@ -54,8 +54,8 @@ function Header() {
           <div href="/" className="text-primary font-semibold flex gap-1 items-center">
             <img src={chili} className='w-10'/>
             <div className='text-red-500 text-xl font-bold'>
-              Spicy
-              <span className="text-gray-800 font-semibold">Bites</span>
+              Tiffin
+              <span className="text-gray-800 font-semibold">Mania</span>
             </div>
           </div>
           <div className='flex items-center gap-x-6'>

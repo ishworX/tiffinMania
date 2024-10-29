@@ -20,7 +20,7 @@ const Hero = () => {
                     </div>
                     <h1 className='font-bold text-4xl lg:text-6xl tracking-normal mt-4 lg:mt-0'>
                         
-                       <span className='text-red-500'>Delicious</span>  Meals Delivered to Your Doorsteps.</h1>
+                    <span className='text-red-500'>Delicious</span>  Meals Delivered to Your Doorsteps.</h1>
                     <p className='text-sm text-gray-600 my-3'>Discover a world of culinary delights with our food delivery service. Enjoy fast, reliable delivery and a wide selection of mouthwatering dishes.</p>
                     <div className='flex gap-3'>
                         <button className='bg-red-500 px-3 py-2 z-20 rounded-lg text-white hover:bg-red-600 hover:scale-110 transition-all'>Order Now</button>
